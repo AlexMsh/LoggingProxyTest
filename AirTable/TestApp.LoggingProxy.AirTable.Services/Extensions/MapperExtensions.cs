@@ -1,11 +1,9 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using TestApp.LoggingProxy.Contracts.Exceptions;
 
-namespace TestApp.AirTable.Services.Extensions
+namespace TestApp.LoggingProxy.AirTable.Services.Extensions
 {
     public static class MapperExtensions
     {

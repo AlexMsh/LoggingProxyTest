@@ -9,17 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.LoggingProxy.Contra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AirTable", "AirTable", "{E3D177B4-9ADF-4D0E-B734-980DE93732A6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.LoggingProxy.AirTable.Contracts", "TestApp.AirTable.Contracts\TestApp.LoggingProxy.AirTable.Contracts.csproj", "{D9012283-04F7-45EA-92F6-A470D0387FF4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.LoggingProxy.AirTable.Services", "TestApp.AirTable.Service\TestApp.LoggingProxy.AirTable.Services.csproj", "{7739CF72-33DE-40B2-9D18-95CBE7BD8ADD}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.LoggingProxy.Services", "TestApp.LoggingProxy.Services\TestApp.LoggingProxy.Services.csproj", "{3A072D33-9CD6-428A-8057-3049ECBD6AFF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{38EA0A26-BC76-43A3-BDF7-4A54DAFD1CE4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.AirTable.Services.UnitTests", "TestApp.AirTable.Services.Tests\TestApp.AirTable.Services.UnitTests.csproj", "{B4E41381-4AD4-4A85-A8E1-6C1A59D1140E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.LoggingProxy.Services.UnitTests", "tests\TestApp.LoggingProxy.Services.UnitTests\TestApp.LoggingProxy.Services.UnitTests.csproj", "{1BE32E99-F54F-47C6-8E10-894D3E763F62}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.LoggingProxy.Services.UnitTests", "TestApp.LoggingProxy.Services.UnitTests\TestApp.LoggingProxy.Services.UnitTests.csproj", "{07C2AC49-AD2A-4BC1-AA37-8807470682F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.LoggingProxy.AirTable.Services.UnitTests", "tests\TestApp.LoggingProxy.AirTable.Services.UnitTests\TestApp.LoggingProxy.AirTable.Services.UnitTests.csproj", "{2CB61F22-AF0E-42D8-A09A-A1729CFDEAE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.LoggingProxy.AirTable.Contracts", "AirTable\TestApp.LoggingProxy.AirTable.Contracts\TestApp.LoggingProxy.AirTable.Contracts.csproj", "{BED37208-4974-4F5D-977E-FCCBEDE3B00F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp.LoggingProxy.AirTable.Services", "AirTable\TestApp.LoggingProxy.AirTable.Services\TestApp.LoggingProxy.AirTable.Services.csproj", "{8BE3904D-BF33-43DF-B77F-745A9AB0EF18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,35 +35,35 @@ Global
 		{956D3654-D9A5-49E9-BBCC-27E6CDC17F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{956D3654-D9A5-49E9-BBCC-27E6CDC17F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{956D3654-D9A5-49E9-BBCC-27E6CDC17F3C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D9012283-04F7-45EA-92F6-A470D0387FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9012283-04F7-45EA-92F6-A470D0387FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9012283-04F7-45EA-92F6-A470D0387FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9012283-04F7-45EA-92F6-A470D0387FF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7739CF72-33DE-40B2-9D18-95CBE7BD8ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7739CF72-33DE-40B2-9D18-95CBE7BD8ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7739CF72-33DE-40B2-9D18-95CBE7BD8ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7739CF72-33DE-40B2-9D18-95CBE7BD8ADD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3A072D33-9CD6-428A-8057-3049ECBD6AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A072D33-9CD6-428A-8057-3049ECBD6AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A072D33-9CD6-428A-8057-3049ECBD6AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A072D33-9CD6-428A-8057-3049ECBD6AFF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4E41381-4AD4-4A85-A8E1-6C1A59D1140E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4E41381-4AD4-4A85-A8E1-6C1A59D1140E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4E41381-4AD4-4A85-A8E1-6C1A59D1140E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4E41381-4AD4-4A85-A8E1-6C1A59D1140E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07C2AC49-AD2A-4BC1-AA37-8807470682F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07C2AC49-AD2A-4BC1-AA37-8807470682F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07C2AC49-AD2A-4BC1-AA37-8807470682F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07C2AC49-AD2A-4BC1-AA37-8807470682F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE32E99-F54F-47C6-8E10-894D3E763F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE32E99-F54F-47C6-8E10-894D3E763F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE32E99-F54F-47C6-8E10-894D3E763F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE32E99-F54F-47C6-8E10-894D3E763F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB61F22-AF0E-42D8-A09A-A1729CFDEAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB61F22-AF0E-42D8-A09A-A1729CFDEAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB61F22-AF0E-42D8-A09A-A1729CFDEAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB61F22-AF0E-42D8-A09A-A1729CFDEAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED37208-4974-4F5D-977E-FCCBEDE3B00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED37208-4974-4F5D-977E-FCCBEDE3B00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED37208-4974-4F5D-977E-FCCBEDE3B00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED37208-4974-4F5D-977E-FCCBEDE3B00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE3904D-BF33-43DF-B77F-745A9AB0EF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE3904D-BF33-43DF-B77F-745A9AB0EF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE3904D-BF33-43DF-B77F-745A9AB0EF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE3904D-BF33-43DF-B77F-745A9AB0EF18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D9012283-04F7-45EA-92F6-A470D0387FF4} = {E3D177B4-9ADF-4D0E-B734-980DE93732A6}
-		{7739CF72-33DE-40B2-9D18-95CBE7BD8ADD} = {E3D177B4-9ADF-4D0E-B734-980DE93732A6}
-		{B4E41381-4AD4-4A85-A8E1-6C1A59D1140E} = {38EA0A26-BC76-43A3-BDF7-4A54DAFD1CE4}
-		{07C2AC49-AD2A-4BC1-AA37-8807470682F7} = {38EA0A26-BC76-43A3-BDF7-4A54DAFD1CE4}
+		{1BE32E99-F54F-47C6-8E10-894D3E763F62} = {38EA0A26-BC76-43A3-BDF7-4A54DAFD1CE4}
+		{2CB61F22-AF0E-42D8-A09A-A1729CFDEAE3} = {38EA0A26-BC76-43A3-BDF7-4A54DAFD1CE4}
+		{BED37208-4974-4F5D-977E-FCCBEDE3B00F} = {E3D177B4-9ADF-4D0E-B734-980DE93732A6}
+		{8BE3904D-BF33-43DF-B77F-745A9AB0EF18} = {E3D177B4-9ADF-4D0E-B734-980DE93732A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B36771DA-8867-46FF-9CEF-4A61E70B9CEA}

@@ -1,12 +1,9 @@
-using AutoMapper;
-using Microsoft.Extensions.DependencyInjection;
 using Moq;
 using NUnit.Framework;
 using System;
-using System.Linq;
 using System.Threading.Tasks;
 using TestApp.LoggingProxy.Contracts;
-using TestApp.LoggingProxy.Contracts.Extensions.AirTable;
+using TestApp.LoggingProxy.Contracts.Extensions;
 using TestApp.LoggingProxy.Contracts.Models;
 
 namespace TestApp.LoggingProxy.Services.UnitTests

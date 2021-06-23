@@ -2,7 +2,7 @@
 using RestSharp;
 using RestSharp.Serialization;
 
-namespace TestApp.AirTable.Services
+namespace TestApp.LoggingProxy.AirTable.Services
 {
     public class RestSharpSerializer : IRestSerializer
     {

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace TestApp.AirTable.Services
+namespace TestApp.LoggingProxy.AirTable.Services
 {
     public class RequestBuilder : IRequestBuilder
     {

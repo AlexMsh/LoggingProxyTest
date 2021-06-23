@@ -2,7 +2,7 @@
 using TestApp.LoggingProxy.Contracts.Models;
 using TestApp.LoggingProxy.Services;
 
-namespace TestApp.LoggingProxy.Contracts.Extensions.AirTable
+namespace TestApp.LoggingProxy.Contracts.Extensions
 {
     public static class ServiceCollectionExtensions
     {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TestApp.LoggingProxy.Contracts.Configuration.AirTable
+﻿namespace TestApp.LoggingProxy.AirTable.Contracts.Configuration
 {
     public class AirTableConfiguration
     {

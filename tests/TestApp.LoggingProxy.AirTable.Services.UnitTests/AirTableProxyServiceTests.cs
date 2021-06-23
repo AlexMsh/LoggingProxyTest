@@ -7,11 +7,11 @@ using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using TestApp.LoggingProxy.Contracts.Configuration.AirTable;
+using TestApp.LoggingProxy.AirTable.Contracts.Configuration;
+using TestApp.LoggingProxy.AirTable.Contracts.Models;
+using TestApp.LoggingProxy.AirTable.Services;
 using TestApp.LoggingProxy.Contracts.Exceptions;
 using TestApp.LoggingProxy.Contracts.Models;
-using TestApp.LoggingProxy.Contracts.Models.AirTable;
-using TestApp.LoggingProxy.Services;
 
 namespace TestApp.AirTable.Services.Tests
 {

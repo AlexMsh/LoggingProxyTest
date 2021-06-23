@@ -10,7 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestApp.AirTable.Service\TestApp.LoggingProxy.AirTable.Services.csproj" />
+    <ProjectReference Include="..\AirTable\TestApp.LoggingProxy.AirTable.Contracts\TestApp.LoggingProxy.AirTable.Contracts.csproj" />
+    <ProjectReference Include="..\AirTable\TestApp.LoggingProxy.AirTable.Services\TestApp.LoggingProxy.AirTable.Services.csproj" />
     <ProjectReference Include="..\TestApp.LoggingProxy.Contracts\TestApp.LoggingProxy.Contracts.csproj" />
     <ProjectReference Include="..\TestApp.LoggingProxy.Services\TestApp.LoggingProxy.Services.csproj" />
   </ItemGroup>

@@ -3,8 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using TestApp.LoggingProxy.AirTable.Services.Extensions;
 using TestApp.LoggingProxy.API.Filters;
-using TestApp.LoggingProxy.Contracts.Extensions.AirTable;
+using TestApp.LoggingProxy.Contracts.Extensions;
 
 namespace TestApp.LoggingProxy.API
 {

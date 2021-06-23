@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using System.Collections.Generic;
 using System.Linq;
+using TestApp.LoggingProxy.AirTable.Contracts.Models;
 using TestApp.LoggingProxy.Contracts.Models;
-using TestApp.LoggingProxy.Contracts.Models.AirTable;
 
-namespace TestApp.AirTable.Services.Mappers
+namespace TestApp.LoggingProxy.AirTable.Services.Mappers
 {
     public class AirTableRecordsProfile : Profile
     {

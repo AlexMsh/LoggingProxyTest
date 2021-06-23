@@ -1,13 +1,12 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using TestApp.AirTable.Services;
-using TestApp.AirTable.Services.Mappers;
-using TestApp.LoggingProxy.Contracts.Configuration.AirTable;
+using TestApp.LoggingProxy.AirTable.Contracts.Configuration;
+using TestApp.LoggingProxy.AirTable.Services.Mappers;
+using TestApp.LoggingProxy.Contracts;
 using TestApp.LoggingProxy.Contracts.Models;
-using TestApp.LoggingProxy.Services;
 
-namespace TestApp.LoggingProxy.Contracts.Extensions.AirTable
+namespace TestApp.LoggingProxy.AirTable.Services.Extensions
 {
     public static class ServiceCollectionExtensions
     {

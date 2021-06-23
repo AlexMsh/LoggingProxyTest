@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestApp.LoggingProxy.Services\TestApp.LoggingProxy.Services.csproj" />
+    <ProjectReference Include="..\..\TestApp.LoggingProxy.Services\TestApp.LoggingProxy.Services.csproj" />
   </ItemGroup>
 
 </Project>

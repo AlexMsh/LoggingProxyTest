@@ -5,14 +5,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TestApp.AirTable.Services;
-using TestApp.AirTable.Services.Extensions;
+using TestApp.LoggingProxy.AirTable.Contracts.Models;
+using TestApp.LoggingProxy.AirTable.Services.Extensions;
 using TestApp.LoggingProxy.Contracts;
 using TestApp.LoggingProxy.Contracts.Exceptions;
 using TestApp.LoggingProxy.Contracts.Models;
-using TestApp.LoggingProxy.Contracts.Models.AirTable;
 
-namespace TestApp.LoggingProxy.Services
+namespace TestApp.LoggingProxy.AirTable.Services
 {
     public class AirTableProxyService : ILoggingProxyService<EnrichedLogRecord, EnrichedLogRecord>
     {

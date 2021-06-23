@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
-using TestApp.LoggingProxy.Contracts.Models.AirTable;
 
-namespace TestApp.LoggingProxy.Contracts.Models
+namespace TestApp.LoggingProxy.AirTable.Contracts.Models
 {
     public class AirTableRecordFieldsData
     {

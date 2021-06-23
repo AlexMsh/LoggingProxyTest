@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestApp.AirTable.Contracts\TestApp.LoggingProxy.AirTable.Contracts.csproj" />
-    <ProjectReference Include="..\TestApp.LoggingProxy.Contracts\TestApp.LoggingProxy.Contracts.csproj" />
+    <ProjectReference Include="..\..\TestApp.LoggingProxy.Contracts\TestApp.LoggingProxy.Contracts.csproj" />
+    <ProjectReference Include="..\TestApp.LoggingProxy.AirTable.Contracts\TestApp.LoggingProxy.AirTable.Contracts.csproj" />
   </ItemGroup>
 
 </Project>
